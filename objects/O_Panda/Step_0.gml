@@ -92,13 +92,12 @@ if (state == "attack") {
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0F8AA457
-/// @DnDArgument : "code" "$(13_10)if (!place_meeting(x, y+5, O_Wall)) {$(13_10)	y += 6;$(13_10)}$(13_10)$(13_10)$(13_10)if (jumpKey and place_meeting(x, y+5, O_Wall)) {$(13_10)	vspeed = -10;$(13_10)}$(13_10)$(13_10)$(13_10)"
-
+/// @DnDArgument : "code" "if (!place_meeting(x, y+5, O_Wall)) {$(13_10)	y += 6;$(13_10)}$(13_10)$(13_10)$(13_10)if (jumpKey and place_meeting(x, y+5, O_Wall)) {$(13_10)	y -=100;$(13_10)}$(13_10)$(13_10)$(13_10)"
 if (!place_meeting(x, y+5, O_Wall)) {
 	y += 6;
 }
 
 
 if (jumpKey and place_meeting(x, y+5, O_Wall)) {
-	vspeed = -10;
+	y -=100;
 }

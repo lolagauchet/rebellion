@@ -1,16 +1,17 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 3EF49117
-/// @DnDArgument : "code" "if state == "dead" {$(13_10)	sprite_index = S_TouristeDead;$(13_10)	$(13_10)	//hspeed = -4; //reduire la vitesse de l'enemi$(13_10)	if (image_speed > 0 ){$(13_10)		if image_index > image_number -1 instance_destroy(); $(13_10)	}	$(13_10)}$(13_10)$(13_10)if keyboard_check(ord("O")) {$(13_10)	state = "dead";$(13_10)}$(13_10)$(13_10)"
+/// @DnDHash : 1381904E
+/// @DnDArgument : "code" "/// @description DEATH STATE$(13_10)$(13_10)if state == "dead" {$(13_10)	sprite_index = S_Touriste_Dead ;$(13_10)	$(13_10)	hspeed = 0;$(13_10)		$(13_10)}$(13_10)$(13_10)$(13_10)if  keyboard_check(ord("G")) {$(13_10)	state = "dead";$(13_10)}$(13_10)$(13_10)"
+/// @description DEATH STATE
+
 if state == "dead" {
-	sprite_index = S_TouristeDead;
+	sprite_index = S_Touriste_Dead ;
 	
-	//hspeed = -4; //reduire la vitesse de l'enemi
-	if (image_speed > 0 ){
-		if image_index > image_number -1 instance_destroy(); 
-	}	
+	hspeed = 0;
+		
 }
 
-if keyboard_check(ord("O")) {
+
+if  keyboard_check(ord("G")) {
 	state = "dead";
 }

@@ -1,28 +1,28 @@
 {
-    "id": "e45efa08-c760-4ed2-9d27-587d35f29796",
+    "id": "dc1411db-fd59-4f30-9481-1eb2c0253a0e",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "O_Touriste",
     "eventList": [
         {
-            "id": "d93f0ee2-b569-44e2-83b8-c62baba8fb94",
+            "id": "834cbf46-7afa-48e8-a99b-a45a1f638cf9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "e45efa08-c760-4ed2-9d27-587d35f29796"
+            "m_owner": "dc1411db-fd59-4f30-9481-1eb2c0253a0e"
         },
         {
-            "id": "9bba3762-8b95-41e0-b954-035077c90936",
+            "id": "e6fe2e1d-6a99-42ae-b38b-18c753ef6dd5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "e45efa08-c760-4ed2-9d27-587d35f29796"
+            "m_owner": "dc1411db-fd59-4f30-9481-1eb2c0253a0e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "06bd5433-712e-4e7e-87cf-db65d8e579ec",
+    "spriteId": "2e62161a-da9a-4001-9a32-57ab0ff85f68",
     "visible": true
 }

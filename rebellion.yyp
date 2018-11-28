@@ -31,11 +31,11 @@
     },
     "resources": [
         {
-            "Key": "06bd5433-712e-4e7e-87cf-db65d8e579ec",
+            "Key": "023cd63a-97fe-4f42-9eb5-98ad14f2bc31",
             "Value": {
-                "id": "bed3161f-c60d-40c3-a294-98f9346ea609",
-                "resourcePath": "sprites\\S_Touriste\\S_Touriste.yy",
-                "resourceType": "GMSprite"
+                "id": "88a13077-cb13-430b-aab4-ed28d3e2aff0",
+                "resourcePath": "objects\\O_Spawner_Touriste\\O_Spawner_Touriste.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -43,6 +43,30 @@
             "Value": {
                 "id": "1259216f-0a40-4e50-82f4-616b1d349fc8",
                 "resourcePath": "views\\0b9bfbf5-ab71-4788-bf2c-8dbdc15418b1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1029d4d4-ce05-416c-afcd-443e4158d535",
+            "Value": {
+                "id": "a55574f2-3e96-46fa-82ee-76b0aa3bc0c2",
+                "resourcePath": "sprites\\S_Braconnier_Dead\\S_Braconnier_Dead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "12ee3620-ff5e-4820-a7eb-f52b95d34d61",
+            "Value": {
+                "id": "5bf788af-e517-405f-bdfc-8f409cbb441f",
+                "resourcePath": "datafiles_yy\\S_Touriste.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "1813d763-e2d0-4ce9-b489-366fe5093838",
+            "Value": {
+                "id": "6562d9b1-797c-4aaa-b9ae-6960dc3465a4",
+                "resourcePath": "views\\1813d763-e2d0-4ce9-b489-366fe5093838.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -63,6 +87,22 @@
             }
         },
         {
+            "Key": "2e62161a-da9a-4001-9a32-57ab0ff85f68",
+            "Value": {
+                "id": "8aba9e7b-922c-4ef1-a534-75d4e6143d7b",
+                "resourcePath": "sprites\\S_Touriste\\S_Touriste.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2edd8849-0272-448e-bcbe-e81162cfebdb",
+            "Value": {
+                "id": "5f3f868b-15ad-4905-8b41-620b430eb073",
+                "resourcePath": "sprites\\S_Bulldozer\\S_Bulldozer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3068746b-49a0-41e5-a14e-60d8e5861fad",
             "Value": {
                 "id": "c432428b-66a6-4ba6-88aa-79855cee5bf3",
@@ -79,19 +119,19 @@
             }
         },
         {
-            "Key": "2c5e1f7a-0d1a-4db8-9b9c-b3a28ac5ce3f",
+            "Key": "387c5f08-6e43-40b4-ab98-b534c951f7a7",
             "Value": {
-                "id": "d324af7e-544b-454a-ad64-b0a738778bb6",
-                "resourcePath": "views\\2c5e1f7a-0d1a-4db8-9b9c-b3a28ac5ce3f.yy",
-                "resourceType": "GMFolder"
+                "id": "7867180e-d6b3-4ff2-ba58-035a4ba6caa4",
+                "resourcePath": "sprites\\S_Braconnier\\S_Braconnier.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
-            "Key": "3ebd54d0-ffc4-46ad-9db0-47041588db87",
+            "Key": "410c81f6-9665-4536-bb53-3ecec3c5ca9b",
             "Value": {
-                "id": "221e28f6-178c-4ad5-888f-c74d56b39ac0",
-                "resourcePath": "objects\\O_SpawnerTouriste\\O_SpawnerTouriste.yy",
-                "resourceType": "GMObject"
+                "id": "d362bc1e-68a5-447b-8bdb-b98c8c6f1420",
+                "resourcePath": "sprites\\S_Touriste_Dead\\S_Touriste_Dead.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -111,6 +151,38 @@
             }
         },
         {
+            "Key": "4ba24350-9033-4474-9f8c-49640bd68e59",
+            "Value": {
+                "id": "f448cefe-41b6-4b53-8903-5b2b24d65391",
+                "resourcePath": "sprites\\S_Bulldozer_Flame\\S_Bulldozer_Flame.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "55fea7a6-44f3-4a50-94a7-2913a9f92355",
+            "Value": {
+                "id": "18e6bf91-2bc6-4a4a-86f0-5051bf4c3eea",
+                "resourcePath": "datafiles_yy\\O_Spawner.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "58355eaa-a5fa-43a9-a5c1-da56d9e891a2",
+            "Value": {
+                "id": "2a7266db-55aa-4240-9c28-f065df0e8462",
+                "resourcePath": "objects\\O_Spawner_Bulldozer\\O_Spawner_Bulldozer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5da4e751-f00b-4856-ac13-b9a3e6cdbbd9",
+            "Value": {
+                "id": "855d01d8-254c-4d6a-afe8-e82f0eaaf702",
+                "resourcePath": "objects\\O_Bulldozer\\O_Bulldozer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "637b9f55-9f30-4211-969d-280a06e4b9a7",
             "Value": {
                 "id": "f27a5481-4159-47c5-bf6a-edd40a129084",
@@ -119,16 +191,14 @@
             }
         },
         {
-            "Key": "7200f669-91e7-4399-bdb2-b73cf3489fa2",
+            "Key": "709d6245-33dc-4c37-8cbb-091f5af9cd42",
             "Value": {
-                "id": "733e82f0-65f8-43f8-8675-852094ef0498",
-                "resourcePath": "views\\7200f669-91e7-4399-bdb2-b73cf3489fa2.yy",
-                "resourceType": "GMFolder"
+                "id": "5317e80d-8eef-4497-80fd-e1dbcde4400c",
+                "resourcePath": "sprites\\S_Braconnier_Attack\\S_Braconnier_Attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
-<<<<<<< HEAD
-=======
             "Key": "72d8219a-c75c-4aec-ac34-4cc46d7a90de",
             "Value": {
                 "id": "aab73e52-a014-4bfc-82cc-e751f1be104a",
@@ -137,7 +207,6 @@
             }
         },
         {
->>>>>>> 1d87905444e0199740b4064ffb7d756c8f9db533
             "Key": "7651aa69-e010-4233-9f8b-48f3aba8fbf2",
             "Value": {
                 "id": "79b84908-fcb3-45ef-b6ea-d4a7f4f1dffa",
@@ -162,18 +231,18 @@
             }
         },
         {
+            "Key": "9335329c-1ab5-4340-83f8-cff2e9a44193",
+            "Value": {
+                "id": "77a7fbdb-1c6d-4901-b7aa-18ed2753e904",
+                "resourcePath": "datafiles_yy\\Step_0.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "93b06051-a1bc-42b6-94f6-4b739ec672f0",
             "Value": {
                 "id": "6987825c-ec57-4512-9579-71b0653db1dc",
                 "resourcePath": "views\\93b06051-a1bc-42b6-94f6-4b739ec672f0.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "9a64a748-72ed-4560-85af-b7d4630a2662",
-            "Value": {
-                "id": "a1ad9222-220a-4a4b-a60f-bd9ec0a3ab62",
-                "resourcePath": "views\\9a64a748-72ed-4560-85af-b7d4630a2662.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -183,6 +252,14 @@
                 "id": "ef3b8e36-ae03-4c9c-9bc6-910292d4fa99",
                 "resourcePath": "views\\9c31f121-7883-4f62-921f-4d0543be9df5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9d098912-51b3-4d45-90be-9fdd79cccdb0",
+            "Value": {
+                "id": "41f94886-bdec-46ad-b3c4-87c310a615f4",
+                "resourcePath": "objects\\O_Spawner_Braconnier\\O_Spawner_Braconnier.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -202,19 +279,19 @@
             }
         },
         {
-<<<<<<< HEAD
             "Key": "a9852771-c189-425f-bae0-d346b220ba72",
             "Value": {
                 "id": "02fa8636-a42e-427d-9b1a-57a8a06429c6",
                 "resourcePath": "objects\\O_Panda\\O_Panda.yy",
                 "resourceType": "GMObject"
-=======
-            "Key": "aaded12c-befe-4199-8e35-f4348db7212e",
+            }
+        },
+        {
+            "Key": "aef438b4-8cc3-4d87-9c29-a1415ae20ea2",
             "Value": {
-                "id": "1d119b6e-dd36-44b2-868b-4473cf177267",
-                "resourcePath": "sprites\\S_TouristeDead\\S_TouristeDead.yy",
-                "resourceType": "GMSprite"
->>>>>>> 1d87905444e0199740b4064ffb7d756c8f9db533
+                "id": "6358176b-7f68-45da-b40a-68f7c974eae9",
+                "resourcePath": "objects\\O_Braconnier\\O_Braconnier.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -234,6 +311,22 @@
             }
         },
         {
+            "Key": "c52ce510-4b3d-4f76-98a8-a97313cc81bd",
+            "Value": {
+                "id": "faad21e5-4d45-40c8-a8e5-b2ee819d1b64",
+                "resourcePath": "views\\c52ce510-4b3d-4f76-98a8-a97313cc81bd.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ca1fc38f-b0ea-4410-950c-f33c994704ae",
+            "Value": {
+                "id": "961bf8a1-2551-4376-9958-dd67c23f8602",
+                "resourcePath": "views\\ca1fc38f-b0ea-4410-950c-f33c994704ae.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "0e322033-1960-4f17-a708-9e529f970c44",
@@ -250,19 +343,19 @@
             }
         },
         {
-<<<<<<< HEAD
             "Key": "d045f017-0e7a-438d-b57d-c4c9087d97d3",
             "Value": {
                 "id": "d8c1366d-fcf3-4e08-bc5b-9da3eebbf2b1",
                 "resourcePath": "sprites\\S_Panda_Run\\S_Panda_Run.yy",
                 "resourceType": "GMSprite"
-=======
-            "Key": "e45efa08-c760-4ed2-9d27-587d35f29796",
+            }
+        },
+        {
+            "Key": "dc1411db-fd59-4f30-9481-1eb2c0253a0e",
             "Value": {
-                "id": "cc2894ad-aa71-4a61-a1da-9acec4f07947",
+                "id": "b3fec79f-3c61-424d-9290-9608708db8bd",
                 "resourcePath": "objects\\O_Touriste\\O_Touriste.yy",
                 "resourceType": "GMObject"
->>>>>>> 1d87905444e0199740b4064ffb7d756c8f9db533
             }
         },
         {
@@ -287,6 +380,14 @@
                 "id": "21353b64-e389-463d-959e-126b5549b0a6",
                 "resourcePath": "views\\e998aafa-6af1-4a00-ad9a-d3c3a12165e4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f1950b02-9551-4a89-9b3a-60331ba1cb1b",
+            "Value": {
+                "id": "f256c520-58f9-40c4-9ad9-59b10e8d3c51",
+                "resourcePath": "datafiles_yy\\Create_0.gml.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
