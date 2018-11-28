@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "06bd5433-712e-4e7e-87cf-db65d8e579ec",
+            "Value": {
+                "id": "bed3161f-c60d-40c3-a294-98f9346ea609",
+                "resourcePath": "sprites\\S_Touriste\\S_Touriste.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0b9bfbf5-ab71-4788-bf2c-8dbdc15418b1",
             "Value": {
                 "id": "1259216f-0a40-4e50-82f4-616b1d349fc8",
@@ -71,6 +79,22 @@
             }
         },
         {
+            "Key": "2c5e1f7a-0d1a-4db8-9b9c-b3a28ac5ce3f",
+            "Value": {
+                "id": "d324af7e-544b-454a-ad64-b0a738778bb6",
+                "resourcePath": "views\\2c5e1f7a-0d1a-4db8-9b9c-b3a28ac5ce3f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3ebd54d0-ffc4-46ad-9db0-47041588db87",
+            "Value": {
+                "id": "221e28f6-178c-4ad5-888f-c74d56b39ac0",
+                "resourcePath": "objects\\O_SpawnerTouriste\\O_SpawnerTouriste.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "43221402-6954-4c41-b745-d5ee0d69628d",
             "Value": {
                 "id": "7f4599eb-f142-48ce-a051-5fadf7919222",
@@ -95,6 +119,16 @@
             }
         },
         {
+            "Key": "7200f669-91e7-4399-bdb2-b73cf3489fa2",
+            "Value": {
+                "id": "733e82f0-65f8-43f8-8675-852094ef0498",
+                "resourcePath": "views\\7200f669-91e7-4399-bdb2-b73cf3489fa2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+<<<<<<< HEAD
+=======
             "Key": "72d8219a-c75c-4aec-ac34-4cc46d7a90de",
             "Value": {
                 "id": "aab73e52-a014-4bfc-82cc-e751f1be104a",
@@ -103,6 +137,7 @@
             }
         },
         {
+>>>>>>> 1d87905444e0199740b4064ffb7d756c8f9db533
             "Key": "7651aa69-e010-4233-9f8b-48f3aba8fbf2",
             "Value": {
                 "id": "79b84908-fcb3-45ef-b6ea-d4a7f4f1dffa",
@@ -135,6 +170,14 @@
             }
         },
         {
+            "Key": "9a64a748-72ed-4560-85af-b7d4630a2662",
+            "Value": {
+                "id": "a1ad9222-220a-4a4b-a60f-bd9ec0a3ab62",
+                "resourcePath": "views\\9a64a748-72ed-4560-85af-b7d4630a2662.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9c31f121-7883-4f62-921f-4d0543be9df5",
             "Value": {
                 "id": "ef3b8e36-ae03-4c9c-9bc6-910292d4fa99",
@@ -159,11 +202,19 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "a9852771-c189-425f-bae0-d346b220ba72",
             "Value": {
                 "id": "02fa8636-a42e-427d-9b1a-57a8a06429c6",
                 "resourcePath": "objects\\O_Panda\\O_Panda.yy",
                 "resourceType": "GMObject"
+=======
+            "Key": "aaded12c-befe-4199-8e35-f4348db7212e",
+            "Value": {
+                "id": "1d119b6e-dd36-44b2-868b-4473cf177267",
+                "resourcePath": "sprites\\S_TouristeDead\\S_TouristeDead.yy",
+                "resourceType": "GMSprite"
+>>>>>>> 1d87905444e0199740b4064ffb7d756c8f9db533
             }
         },
         {
@@ -199,11 +250,19 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "d045f017-0e7a-438d-b57d-c4c9087d97d3",
             "Value": {
                 "id": "d8c1366d-fcf3-4e08-bc5b-9da3eebbf2b1",
                 "resourcePath": "sprites\\S_Panda_Run\\S_Panda_Run.yy",
                 "resourceType": "GMSprite"
+=======
+            "Key": "e45efa08-c760-4ed2-9d27-587d35f29796",
+            "Value": {
+                "id": "cc2894ad-aa71-4a61-a1da-9acec4f07947",
+                "resourcePath": "objects\\O_Touriste\\O_Touriste.yy",
+                "resourceType": "GMObject"
+>>>>>>> 1d87905444e0199740b4064ffb7d756c8f9db533
             }
         },
         {
