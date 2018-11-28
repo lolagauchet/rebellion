@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "29ee30b1-a91e-46ca-b848-4f914ed65ebe",
+            "Value": {
+                "id": "c71b13d3-2096-4f1d-a2a3-5a876d39b762",
+                "resourcePath": "views\\29ee30b1-a91e-46ca-b848-4f914ed65ebe.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2b31f791-d25a-4f57-b560-36a55ce15c02",
             "Value": {
                 "id": "811155a8-b947-4e11-bac7-44b8c73f8430",
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "766584a8-cb6b-4227-84e9-c9b2fd9cf41d",
+            "Value": {
+                "id": "1d0f3a1b-9adf-402f-8371-abd610ac4f35",
+                "resourcePath": "sprites\\S_Panda\\S_Panda.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "906cd799-94fb-4235-881e-def95d90aab5",
             "Value": {
                 "id": "a487f2cc-c150-4b50-94cb-8f7c3a38f414",
@@ -124,6 +140,14 @@
                 "id": "785cdb89-c146-40eb-819f-26a4bc4e38c7",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a9852771-c189-425f-bae0-d346b220ba72",
+            "Value": {
+                "id": "02fa8636-a42e-427d-9b1a-57a8a06429c6",
+                "resourcePath": "objects\\O_Panda\\O_Panda.yy",
+                "resourceType": "GMObject"
             }
         },
         {
