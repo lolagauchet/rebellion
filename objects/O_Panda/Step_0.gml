@@ -30,7 +30,7 @@ if (state == "idle") {
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 55EDE67D
-/// @DnDArgument : "code" "/// @description MOVE STATE$(13_10)$(13_10)if (rKey or lKey) {$(13_10)	state = "move";$(13_10)}$(13_10)$(13_10)if (state == "move") {$(13_10)	sprite_index = S_Panda_Run;$(13_10)	$(13_10)	if (rKey and !place_meeting(x+6,y, O_Wall)) {$(13_10)		x += 6;$(13_10)		image_xscale = 1;$(13_10)	}$(13_10)	else if (lKey and !place_meeting(x-6,y, O_Wall)) {$(13_10)		x -= 6;$(13_10)		image_xscale = -1;$(13_10)	}$(13_10)	else {$(13_10)		state = "idle";$(13_10)	}$(13_10)}$(13_10)"
+/// @DnDArgument : "code" "/// @description MOVE STATE$(13_10)$(13_10)if (rKey or lKey) {$(13_10)	state = "move";$(13_10)}$(13_10)$(13_10)if (state == "move") {$(13_10)	sprite_index = S_Panda_Run;$(13_10)	$(13_10)	if (rKey and !place_meeting(x+6,y, O_Wall)) {$(13_10)		x += 6;$(13_10)		image_xscale = 1.5;$(13_10)	}$(13_10)	else if (lKey and !place_meeting(x-6,y, O_Wall)) {$(13_10)		x -= 6;$(13_10)		image_xscale = -1.5;$(13_10)	}$(13_10)	else {$(13_10)		state = "idle";$(13_10)	}$(13_10)}$(13_10)"
 /// @description MOVE STATE
 
 if (rKey or lKey) {
@@ -42,11 +42,11 @@ if (state == "move") {
 	
 	if (rKey and !place_meeting(x+6,y, O_Wall)) {
 		x += 6;
-		image_xscale = 1;
+		image_xscale = 1.5;
 	}
 	else if (lKey and !place_meeting(x-6,y, O_Wall)) {
 		x -= 6;
-		image_xscale = -1;
+		image_xscale = -1.5;
 	}
 	else {
 		state = "idle";
@@ -92,13 +92,26 @@ if (state == "attack") {
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0F8AA457
-/// @DnDArgument : "code" "$(13_10)if (!place_meeting(x, y+5, O_Wall)) {$(13_10)	y += 6;$(13_10)}$(13_10)$(13_10)$(13_10)if (jumpKey and place_meeting(x, y+5, O_Wall)) {$(13_10)	vspeed = -10;$(13_10)}$(13_10)$(13_10)$(13_10)"
+/// @DnDArgument : "code" "///@description JUMP AND ATTRACTION$(13_10)$(13_10)if (!place_meeting(x, y+5, O_Wall)) {$(13_10)	vspeed = 10;$(13_10)} else {$(13_10)	vspeed = 0;$(13_10)}$(13_10)$(13_10)if (jumpKey and place_meeting(x, y+5, O_Wall)) {$(13_10)	state = "jump";$(13_10)}$(13_10)$(13_10)if (state == "jump") {$(13_10)	vspeed = 0;$(13_10)	sprite_index = S_Panda_Roll;$(13_10)	y -= 10;$(13_10)}"
+///@description JUMP AND ATTRACTION
 
 if (!place_meeting(x, y+5, O_Wall)) {
-	y += 6;
+	vspeed = 10;
+} else {
+	vspeed = 0;
 }
-
 
 if (jumpKey and place_meeting(x, y+5, O_Wall)) {
-	vspeed = -10;
+	state = "jump";
 }
+
+if (state == "jump") {
+	vspeed = 0;
+	sprite_index = S_Panda_Roll;
+	y -= 10;
+}
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 0AC43B5A
+/// @DnDArgument : "code" ""
