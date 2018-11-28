@@ -1,28 +1,28 @@
 {
-    "id": "dc1411db-fd59-4f30-9481-1eb2c0253a0e",
+    "id": "aef438b4-8cc3-4d87-9c29-a1415ae20ea2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "O_Touriste",
+    "name": "O_Braconnier",
     "eventList": [
         {
-            "id": "834cbf46-7afa-48e8-a99b-a45a1f638cf9",
+            "id": "b26b2f73-090e-4b17-8fa7-245e1e317ca5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "dc1411db-fd59-4f30-9481-1eb2c0253a0e"
+            "m_owner": "aef438b4-8cc3-4d87-9c29-a1415ae20ea2"
         },
         {
-            "id": "e6fe2e1d-6a99-42ae-b38b-18c753ef6dd5",
+            "id": "c9287109-7a59-40f9-b2e5-8ad33e595b8a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "dc1411db-fd59-4f30-9481-1eb2c0253a0e"
+            "m_owner": "aef438b4-8cc3-4d87-9c29-a1415ae20ea2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2e62161a-da9a-4001-9a32-57ab0ff85f68",
+    "spriteId": "387c5f08-6e43-40b4-ab98-b534c951f7a7",
     "visible": true
 }

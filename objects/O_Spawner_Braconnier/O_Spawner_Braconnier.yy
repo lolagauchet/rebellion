@@ -1,28 +1,28 @@
 {
-    "id": "3ebd54d0-ffc4-46ad-9db0-47041588db87",
+    "id": "9d098912-51b3-4d45-90be-9fdd79cccdb0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "O_SpawnerTouriste",
+    "name": "O_Spawner_Braconnier",
     "eventList": [
         {
-            "id": "b2584170-f8e2-4ccf-b2e6-29ff990742c7",
+            "id": "999df832-3ca5-43f8-be0e-2b801b84a489",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "3ebd54d0-ffc4-46ad-9db0-47041588db87"
+            "m_owner": "9d098912-51b3-4d45-90be-9fdd79cccdb0"
         },
         {
-            "id": "72bd4360-b130-4386-9536-67b281bdf19f",
+            "id": "774bb0b5-957c-4955-a617-3838ec3aea4f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "3ebd54d0-ffc4-46ad-9db0-47041588db87"
+            "eventtype": 2,
+            "m_owner": "9d098912-51b3-4d45-90be-9fdd79cccdb0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

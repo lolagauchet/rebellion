@@ -92,9 +92,13 @@ if (state == "attack") {
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0F8AA457
+<<<<<<< HEAD
 /// @DnDArgument : "code" "///@description JUMP AND ATTRACTION$(13_10)$(13_10)if (!place_meeting(x, y+5, O_Wall)) {$(13_10)	vspeed = 10;$(13_10)} else {$(13_10)	vspeed = 0;$(13_10)}$(13_10)$(13_10)if (jumpKey and place_meeting(x, y+5, O_Wall)) {$(13_10)	state = "jump";$(13_10)}$(13_10)$(13_10)if (state == "jump") {$(13_10)	vspeed = 0;$(13_10)	sprite_index = S_Panda_Roll;$(13_10)	y -= 10;$(13_10)}"
 ///@description JUMP AND ATTRACTION
 
+=======
+/// @DnDArgument : "code" "if (!place_meeting(x, y+5, O_Wall)) {$(13_10)	y += 6;$(13_10)}$(13_10)$(13_10)$(13_10)if (jumpKey and place_meeting(x, y+5, O_Wall)) {$(13_10)	y -=100;$(13_10)}$(13_10)$(13_10)$(13_10)"
+>>>>>>> aeed7906d4e1f7a6311c64d8301d54c81b96a9f0
 if (!place_meeting(x, y+5, O_Wall)) {
 	vspeed = 10;
 } else {
@@ -102,6 +106,7 @@ if (!place_meeting(x, y+5, O_Wall)) {
 }
 
 if (jumpKey and place_meeting(x, y+5, O_Wall)) {
+<<<<<<< HEAD
 	state = "jump";
 }
 
@@ -115,3 +120,7 @@ if (state == "jump") {
 /// @DnDVersion : 1
 /// @DnDHash : 0AC43B5A
 /// @DnDArgument : "code" ""
+=======
+	y -=100;
+}
+>>>>>>> aeed7906d4e1f7a6311c64d8301d54c81b96a9f0
